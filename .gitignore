@@ -3,3 +3,6 @@ backend/.env
 frontend/node_modules
 server/node_modules
 server/.env
+todolist/node_modules
+todolist/.env
+todolist/package-lock.json

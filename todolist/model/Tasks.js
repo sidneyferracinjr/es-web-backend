@@ -16,6 +16,9 @@ module.exports = {
     list() {
         return tasks;
     },
+    listAtoZ() {
+        return tasks.sort((a, b) => a.name.localeCompare(b.name));
+    },
     getElementById(id) {
         let pos = this.getPositionById(id)
         if (pos >= 0) {
